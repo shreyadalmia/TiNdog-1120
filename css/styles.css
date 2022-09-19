@@ -1,0 +1,173 @@
+#title{
+  background-color: #fe3c72 ;
+  color:#fff;
+}
+body{
+  font-family: 'Montserrat';
+  text-align:center;
+}
+h1,h2,h3{
+  font-family: 'Montserrat-Bold';
+}
+
+h1{
+
+  padding-top: 1rem;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+h2{
+
+  font-size:2.5rem;
+  line-height: 1.5;
+  padding-top:2rem;
+
+  /* margin:auto; */
+}
+h3{
+font-size: 1.5rem;
+}
+
+
+.container-fluid{
+  padding:5% 15%; */
+}
+.navbar-brand{
+  padding-left: 16%;
+}
+
+
+/* navbar */
+.navbar-brand{
+  font-family: 'Ubuntu';
+  /* 1rem=16; */
+  font-size: 2rem;
+  font-weight:bolder;
+}
+.navbar{
+  padding: 0 0 0.2rem;
+  background-color: #fe3c72;
+}
+.nav-item{
+  padding:0px 18px 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family:'Montserrats-light';
+}
+/* downloads button */
+.downloadbutton{
+  margin: 23px 0;
+}
+/* class images */
+.dog-image{
+  padding-top: 1rem;
+  width:25%;
+  transform:rotate(20deg);
+  position:absolute;
+
+}
+/* features */
+#features{
+
+  background-color: #fff;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  position: relative;
+ padding:7%,45%;
+
+}
+.featurerow{
+
+  padding: 40px;
+}
+.featureimages{
+  color:#ef8172;
+  padding: 50px,15px,73px,15px;
+}
+.featureimages:hover{
+  color: #ff4c68;
+}
+
+p{
+  color:#8f8f8f;
+  padding:5%;
+}
+/* testimonizls */
+#testimonials{
+
+
+  background-color: #ef8172;
+  color:#fff;
+}
+
+.testimonial-images{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+#press{
+
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+.pressimage{
+  width:12%;
+  margin:20px 20px 20px;
+}
+.carousel-item{
+  padding:7%,15%;
+}
+/* pricing */
+#pricing{
+  padding:100px;
+  text-align:center;
+
+}
+.pricing-col{
+  padding:3% 2%;
+  line-height: 0.2rem;
+}
+/* media query */
+@media(max-width:990px){
+  #title{
+    text-align:center;
+  }
+  .dog-image{
+    position:static;
+    width:50%;
+    /* padding-left:60px; */
+    transform: rotate(0deg);
+  }
+}
+/* call to action */
+
+#cta{
+  background-color:#ff4c68 ;
+  text-align:center;
+
+  padding:7% 15%;
+
+}
+
+.dog-love{
+  font-family:'Montserrat-Black',sans-serif;
+  color:#fff;
+  font-weight: bolder;
+  line-height: 2rem;
+
+}
+.ctabutton{
+  margin-left: 20px;
+  margin-top:30px;
+}
+/* footer */
+#footer{
+  padding:7% 15%;
+
+}
+.social-icon{
+  margin:10px;
+}
